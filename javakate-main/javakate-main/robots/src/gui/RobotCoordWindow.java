@@ -86,6 +86,7 @@ public class RobotCoordWindow extends JInternalFrame implements State, RobotList
         // Максимизируем окно если сказано что оно было максимизировано
         setMaximum(parseBoolean(s.get("isMaximum")));
     }
+    
 
     @Override
     public void update(IRobot robot) {
