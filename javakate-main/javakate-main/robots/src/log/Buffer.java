@@ -59,7 +59,6 @@ public class Buffer<T> implements Iterable<T> {
         // Если буфер ещё неполный (меньше записей было чем размер буфера)
         return count < d.length ? d[i] : d[(count + i) % d.length];
     }
-
     public int size() {
         return min(count, d.length);
     }
