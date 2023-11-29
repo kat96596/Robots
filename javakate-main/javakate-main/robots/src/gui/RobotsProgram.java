@@ -49,6 +49,7 @@ public class RobotsProgram {
                         e.getWindow().dispose();
                         System.exit(0);
                     }
+                    
                 }
             });
             frame.setVisible(true);
